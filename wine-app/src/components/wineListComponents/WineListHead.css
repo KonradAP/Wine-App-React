@@ -1,0 +1,22 @@
+.list-head{
+    background-color: darkred;
+    color: papayawhip;
+}
+
+.head-name {
+    background-color: darkred;
+    text-align: left;
+}
+
+.head-vintage {
+    background-color: darkred;
+    text-align: right;
+}
+
+.head-price {
+    background-color: darkred;
+    text-align: right;
+}
+.head-button-space{
+    background-color: darkred;
+}

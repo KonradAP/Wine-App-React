@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+
+                                                                                                                                 .wine-list-node {
+    height: 30px;
+    background-color: papayawhip;
+
+}
+
+.wine-list-node:hover {
+    background-color: darkred;
+    color: papayawhip;
+}
+
+
+
+.wine-name {
+    margin-left: 5px;
+    background: none;
+
+
+}
+
+.wine-vintage {
+    background:none;
+    text-align: right;
+
+}
+
+.wine-price {
+    background: none;
+    text-align: right;
+
+
+}
+
+.button-cell {
+    background: none;
+}
+
+.remove-button {
+    background: none;
+    margin-right: 5px;
+    border-color: antiquewhite;
+    text-align: right;
+
+}

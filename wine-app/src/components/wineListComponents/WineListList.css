@@ -1,0 +1,8 @@
+.wine-list {
+    column-count:4;
+    border-collapse: collapse;
+    table-layout: auto;
+    width: 100%;
+    border: none;
+
+}

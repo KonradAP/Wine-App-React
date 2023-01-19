@@ -1,0 +1,33 @@
+.wine-list-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form-area{
+
+    margin-top: 2%;
+    margin-right: 4px;
+
+
+}
+
+
+.list-area {
+
+    margin-top: 2%;
+    width: 800px;
+    height: 600px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    overflow: auto;
+
+}
+

@@ -1,0 +1,55 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    background-color: darkred;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.nav-bar-links {
+    display: flex;
+    align-content: center;
+    background-color: darkred;
+}
+
+.logged-in-navbar {
+    display: flex;
+    align-content: center;
+    background-color: darkred;
+
+}
+.logged-in-name {
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+    background-color: darkred;
+    color: navajowhite;
+}
+#button-login {
+    color: orangered;
+}
+.app-name {
+    color: navajowhite;
+    background-color: darkred;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    margin-left: 20px;
+
+}
+
+.nav-button {
+    color: gray;
+    align-self: center;
+    background-color: darkred;
+    border-radius: 10%;
+    text-decoration: none;
+    margin: 15px;
+    transition: color 300ms ease;
+}
+
+.nav-button:hover {
+    color: navajowhite;
+    transition: color 300ms ease;
+}

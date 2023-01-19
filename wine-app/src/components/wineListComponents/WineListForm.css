@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 48;
+    color: slategray;
+    background-color: papayawhip;
+    height: 40px;
+    width: 40px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+    border-color: slategray;
+
+}
+
+.pop-up-form {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+.wine-list-form {
+    position: absolute;
+    left: 45px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: papayawhip;
+    border-style: solid;
+    border-color: slategray;
+    border-width: 3px;
+    border-radius: 3px;
+    padding: 5px;
+
+}
+
+
+.wine-list-form-label {
+    font-size: 15px;
+    background-color: papayawhip;
+
+}
+
+.wine-list-form-input {
+    font-size: 15px;
+    width: 450px;
+    height: 30px;
+    background-color: papayawhip;
+    border-color: palevioletred;
+    border-radius: 12px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-style: dotted;
+    outline: none;
+
+}
+
+.wine-list-form-input::placeholder{
+    color: indianred;
+    border-color: red;
+    border-width: 3px;
+
+}
+
+.wine-list-form-input:focus {
+    border-color: darkred;
+}
+
+.wine-list-form-button {
+    width: 150px;
+    font-size: 20px;
+    background-color: lightgray;
+    color: darkred;
+    border-style: hidden;
+    border-radius: 12px;
+    margin-top: 15px;
+    transition: color 700ms ease;
+}
+
+.wine-list-form-button:hover {
+    background-color: darkred;
+    color: navajowhite;
+    cursor: pointer;
+    transition: color 300ms ease;
+}
